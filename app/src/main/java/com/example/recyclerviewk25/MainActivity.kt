@@ -14,24 +14,26 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val colorIds = listOf(
-            R.color.white,
-            R.color.light_gray,
-            R.color.pink,
-            R.color.gold,
-            R.color.yellow,
-            R.color.orange,
-            R.color.cyan,
-            R.color.green,
-            R.color.teal,
-            R.color.purple,
-            R.color.blue,
-            R.color.magenta,
-            R.color.red,
-            R.color.indigo,
-            R.color.brown,
-            R.color.black,
-            R.color.gray,
-            R.color.dark_gray
+            R.color.blue_1,
+            R.color.blue_2,
+            R.color.blue_3,
+            R.color.blue_4,
+            R.color.blue_5,
+            R.color.blue_6,
+            R.color.blue_7,
+            R.color.blue_8,
+            R.color.blue_9,
+            R.color.blue_10,
+            R.color.blue_11,
+            R.color.blue_12,
+            R.color.blue_13,
+            R.color.blue_14,
+            R.color.blue_15,
+            R.color.blue_16,
+            R.color.blue_17,
+            R.color.blue_18,
+            R.color.blue_19,
+            R.color.blue_20
         )
 
         val colorsList = colorIds.map { ContextCompat.getColor(this, it) }
